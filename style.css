@@ -1,0 +1,116 @@
+/* FILEPATH: /Users/sels3009/Documents/Copilot/style.css */
+
+/* Set default font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Set background color and padding for main content area */
+.main-content {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Style the blog post title */
+.post-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style the blog post date */
+.post-date {
+    font-style: italic;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+/* Style the blog post content */
+.post-content {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Style the blog post author */
+.post-author {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style the blog post comments section */
+.comments {
+    margin-top: 20px;
+}
+
+/* Style the comment form */
+.comment-form {
+    margin-top: 20px;
+}
+
+.comment-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.comment-form input[type="text"],
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.comment-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comment-form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Style the comment list */
+
+.comment-list {
+    margin-top: 20px;
+}
+
+.comment {
+    margin-bottom: 20px;
+}
+
+.comment p {
+    margin-bottom: 10px;
+}
+
+.comment .comment-date {
+    font-style: italic;
+    color: #999;
+}
+
+.comment .comment-author {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.sidebar .widget {
+    margin-bottom: 20px;
+}
+
+.sidebar .widget-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
