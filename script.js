@@ -1,7 +1,8 @@
 function calculateDaysBetweenDates(begin, end) {
   const millisecondsPerDay = 86400000;
   const diff = end - begin;
-  return Math.floor(diff / millisecondsPerDay);
+  return Math.floor(diff / millisecondsPerDay); 
+  
 }
 
 const today = new Date();
